@@ -76,3 +76,94 @@ FUNCTION
                  --variables without let & const keyword are automatically created in global scope
 
 Local Variable  --variable declared within the function have scope throughout the function only
+
+
+QUEUE
+
+ queue is an abstract Data Structure where items are kept in order. 
+ New items can be added at the back of the queue and old items are taken off from the front of the queue.
+
+
+ Boolean
+
+ true/false
+
+ they are mutually exclusive
+
+ When test is called with a value of true, 
+ the if statement evaluates myCondition to see if it is true or not. Since it is true, 
+ the function returns It was true. When we call test with a value of false, 
+ myCondition is not true and the statement in the curly braces is not executed and the function returns 
+ It was false.
+
+ test(true)
+ test(false)
+
+
+ equality operator //type conversion is performed
+ ==
+
+strictly equal operator  //type conversion is not performed
+ 3 ===  3  // true
+3 === '3' // false
+
+inequality operator 
+!=
+
+strictly inequality operator
+!==
+
+and operator
+&&
+
+or operator
+||
+
+switch statement
+strings or charcter in ""
+numbers without any quotes
+
+
+creating object 
+//
+const cat = {                                 //cat object name
+  "name": "Whiskers",
+  "legs": 4,
+  "tails": 1,
+  "enemies": ["Water", "Dogs"]
+};
+
+///object property
+
+const myObj = {
+  prop1: "val1",
+  prop2: "val2"
+};
+
+const prop1val = myObj.prop1;
+const prop2val = myObj.prop2;
+
+
+//Accessing Object Properties with Variables
+
+const dogs = {
+  Fido: "Mutt",
+  Hunter: "Doberman",
+  Snoopie: "Beagle"
+};
+
+const myDog = "Hunter";
+const myBreed = dogs[myDog];
+console.log(myBreed);
+
+//Updating Object Properties
+
+objname.prop= "updated_value";
+
+finding the lenght of the object = Object.keys() 
+
+//Adding new values in the object
+objname.new_prop= "new_value";
+
+//deleting pro. in object
+delete objname.prop;
