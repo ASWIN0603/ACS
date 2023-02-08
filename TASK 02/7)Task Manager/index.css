@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(153, 153, 255);
+    border-radius:200px;
+    display:flex;
+}
+.profile{
+    height:100%;
+    width:25%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+img{
+    padding:5%;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    display:inline
+}
+.head{
+    display: flex;
+}
+.color{
+    color:rgb(236, 134, 250);
+}
+hr{
+     height:3px;
+     width:65%;
+     background-color:rgb(153, 153, 255);
+}
+i{
+    padding-top: 10%;
+    padding-left:15%;
+    padding-right: 5%;
+}
+.task{
+
+    font-size: 20px;
+}
+.filter{
+    padding-left:30%;
+    font-size: 20px;
+    spacing:0;
+}
+#red{
+    color:pink;
+    font-size: 20px;
+}
+h1{
+margin-left: 80%;
+   margin-top:5%;
+}

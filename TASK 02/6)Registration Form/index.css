@@ -1,0 +1,63 @@
+body{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:aliceblue;
+}
+input{
+    background: transparent;
+    border:2px solid rgb(255, 255, 255); 
+    height:4vh;
+
+}
+select{
+    background: transparent;
+    border:2px solid rgb(255, 255, 255); 
+    height:5vh;
+}
+.gridmain {
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    margin:0 5%;
+    padding:3%;
+    background-color: rgba(0, 255, 234, 0.623);
+  }
+  .grid{
+    padding-bottom: 4%;
+  }
+  .phnumber, .city, .email, .address{
+        grid-column: 1 ;
+  }
+  .add{
+    grid-column:2/span 4;
+  }
+  
+  input[name="address"]{
+    width:96%;
+  }
+  .button{
+    padding-top:3px;
+    grid-column: 2 ;
+  }
+input[type="submit"]{
+    background-color: blue;
+    color:aliceblue;
+    border: 0 solid blue;
+    width:120px;
+}
+input[type="reset"]{
+    background-color: rgb(204, 184, 9);
+    color:aliceblue;
+    border:0 solid  rgb(204, 184, 9);
+    width:120px;
+}
+footer{
+    padding-top: 40px;
+    text-align:center;
+    text-decoration: none;
+    color:white;
+}

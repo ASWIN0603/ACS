@@ -1,0 +1,78 @@
+Variable -declaration -assigning -storing -intializing
+
+Variable -casesensitive -camelCase
+
+var & let keywords
+
+var keyword - can be over written but 'let' key word cannot
+
+        let camper = "James";
+        let camper = "David";
+            -displays error.
+
+        var camper = "James";
+        var camper = "David";
+        console.log(camper);
+            -prints David
+
+const key word -they are read only, once used cannot be used later.
+
+uppercase for immutable values.
+lowercase/camelCase for mutable values 
+
+
+basic arithmetic operations with Js
+
+myVar = 5 + 10;  (+,-,*,/)
+myVar now has the value 15.
+
+increment/decrement
+
+decimal 
+modular division (%)
+
+agumented arithmetic operations
+
+escape string   quote string
+
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\t	tab
+\r	carriage return
+\b	word boundary
+\f	form feed
+
+Concatenating Strings
+        -using agumented addition
+
+.lenght   -used to find length()
+indexing from 0-length
+
+string is immutable in js we can only reassign it
+
+Array -nestedArray  -changing element using indexing
+  
+  sub array indexing  sample_array[0][0] 
+        array_name.push()  is used to add new element in the last position of the array
+        array_name.pop() is used to delete the selected ot mentioned element from the array
+        array-name.shift() is used to remove the first element of the arry indexing[0]
+        array-name.unshift() is used to add a new element in the starting of the array index position [0] 
+
+
+FUNCTION
+ syntax: function function-name(parameter 1,parameter 2,.....,parameter n){
+    console.log("hello")
+ }
+
+ calling the function     --function()
+
+ function with return variable  --return 0;
+
+ VARIABLES & SCOPE OF VARIABLES
+
+ Global variable --Declared outside the function have a global scope towards the program
+                 --variables without let & const keyword are automatically created in global scope
+
+Local Variable  --variable declared within the function have scope throughout the function only
