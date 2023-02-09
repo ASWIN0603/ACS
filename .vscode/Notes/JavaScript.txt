@@ -167,3 +167,7 @@ objname.new_prop= "new_value";
 
 //deleting pro. in object
 delete objname.prop;
+
+
+checking
+obj_name.hasOwnProperty(property)   return true if it available  //return false if it not availabel

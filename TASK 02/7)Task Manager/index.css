@@ -28,7 +28,7 @@ hr{
      width:65%;
      background-color:rgb(153, 153, 255);
 }
-i{
+.fa-calendar, .prof, .fa-calendar-check-o, .fa-gear{
     padding-top: 10%;
     padding-left:15%;
     padding-right: 5%;
@@ -46,24 +46,36 @@ i{
     color:pink;
     font-size: 20px;
 }
+#blue{
+    color:rgb(5, 62, 248);
+    font-size: 20px;
+}
+#yellow{
+    color:rgb(253, 237, 10);
+    font-size: 20px;
+}
+.blur{
+    color: grey;
+    opacity: 0.6;
+}
 .main{
     width:100%;
 }
 h1{
-    margin-left: 40%;
-   margin-top:5%;
+margin:70px 10px; 
 }
 .top{
     background-color: aqua;
-    width:70%;
-    margin: auto;
-    height:40px;
+    width:75%;
+    margin:40px auto;
+    height:50px;
     border-radius: 10px;
 }
 .tasks{
     background-color:whitesmoke;
     width:70%;
-    height:40px;
+    height:50px;
     border-radius: 10px;
-    margin: 50px auto;
+    margin: 15px auto;
 }
+.circle
