@@ -1,0 +1,10 @@
+body{
+    background-color: grey;
+}
+img{
+    height: 90px;
+    width: 90px;
+    position:absolute;
+    right:10%;
+    top:calc((100% - 90px)/2);
+}
