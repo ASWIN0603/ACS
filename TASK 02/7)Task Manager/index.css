@@ -2,9 +2,10 @@ body{
     background-color:rgb(153, 153, 255);
     border-radius:200px;
     display:flex;
+    height: 100%;
 }
 .profile{
-    height:100%;
+   height: 100%;
     width:25%;
     background-color: aliceblue;
     border-radius: 10px;
@@ -45,7 +46,24 @@ i{
     color:pink;
     font-size: 20px;
 }
+.main{
+    width:100%;
+}
 h1{
-margin-left: 80%;
+    margin-left: 40%;
    margin-top:5%;
+}
+.top{
+    background-color: aqua;
+    width:70%;
+    margin: auto;
+    height:40px;
+    border-radius: 10px;
+}
+.tasks{
+    background-color:whitesmoke;
+    width:70%;
+    height:40px;
+    border-radius: 10px;
+    margin: 50px auto;
 }
